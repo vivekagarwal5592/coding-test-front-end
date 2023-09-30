@@ -1,0 +1,39 @@
+#variable {
+    font-family: auto, serif;
+    font-weight: bold;
+}
+
+#variable .main-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+    background-color: #01131B;
+    min-height: 300px;
+    color: white;
+}
+
+#variable .green {
+    color: #34B71F
+}
+
+#variable .red {
+    color: #F3392F;
+
+}
+
+#variable .maintext {
+    font-size: 15px;
+}
+
+#variable .subtext {
+    font-size: 10px;
+}
+
+#variable .body-section {
+    padding: 10px;
+    color: #fff;
+    border-bottom: 1px dotted white;
+}
+
+

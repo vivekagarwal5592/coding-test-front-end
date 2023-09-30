@@ -1,0 +1,63 @@
+#criteria {
+    font-family: auto, serif;
+}
+
+#criteria .main-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    margin: auto;
+    background-color: #01131B;
+    min-height: 300px;
+    color: white;
+    text-transform: capitalize;
+}
+
+#criteria .green {
+    color: #34B71F
+}
+
+#criteria .red {
+    color: #F3392F
+}
+
+#criteria .maintext {
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#criteria .subtext {
+    font-size: 10px;
+}
+
+#criteria .header-section {
+    min-height: 60px;
+    background-color: #1686b0;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+#criteria .body-section {
+    padding: 0px 10px 0px 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: initial;
+}
+
+#criteria a {
+    text-decoration-color: unset;
+}
+
+#criteria .and {
+    font-size: 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+#criteria .header-section{
+    padding: 10px;
+}
+
+

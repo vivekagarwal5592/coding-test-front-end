@@ -1,25 +1,19 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Home from "./Components/Home/Home.component";
+import {Route, Routes} from "react-router-dom";
+import Criteria from "./Components/Criteria/Criteria.component";
+import Variable from "./Components/Variable/Variable.component";
+import Indicator from "./Components/Indicator/Indicator.component";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/criteria" element={<Criteria/>} />
+        <Route path="/variable" element={<Variable/>} />
+        <Route path="/indicator" element={<Indicator/>} />
+      </Routes>
   );
 }
 

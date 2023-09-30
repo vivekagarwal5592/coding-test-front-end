@@ -1,0 +1,46 @@
+#home {
+    font-family: auto, serif;
+}
+
+#home .main-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 31px 15px 15px 15px;
+    margin: auto;
+    background-color: #01131B;
+    min-height: 300px;
+    color: white;
+}
+
+#home .green {
+    color: #34B71F
+}
+
+#home .red {
+    color: #F3392F
+}
+
+#home .maintext {
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#home .subtext {
+    font-size: 10px;
+}
+
+#home .parent {
+    padding: 10px;
+    border-bottom: 1px dotted white;
+}
+
+a {
+    text-decoration-color: white;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+

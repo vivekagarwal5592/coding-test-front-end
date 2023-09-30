@@ -1,0 +1,68 @@
+#indicator {
+    font-family: auto, serif;
+}
+
+#indicator .main-box {
+    width: 100%;
+    max-width: 420px;
+    padding: 15px;
+    font-size: 14px;
+    margin: auto;
+    background-color: #01131B;
+    min-height: 300px;
+    color: white;
+    font-weight: bold;
+}
+
+#indicator .green {
+    color: #34B71F
+}
+
+#indicator .red {
+    color: #F3392F
+}
+
+#indicator .maintext {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#indicator .subtext {
+    font-weight: bold;
+    font-size: 14px;
+    font-family: auto, serif;
+}
+
+#indicator .body-section {
+    color: #fff;
+}
+
+#indicator .indicator-variable-section {
+    display: flex;
+    background-color: #fff;
+    min-height: 60px;
+    font-size: 14px;
+    padding: 10px;
+    color: black;
+}
+
+#indicator .header-section {
+    padding: 0 0 10px 0;
+}
+
+#indicator .flex-4 {
+    text-transform: capitalize;
+    flex: 4;
+}
+
+#indicator .flex-1 {
+    flex: 1;
+}
+
+#indicator .set-parameters {
+    margin-bottom: 10px;
+}
+
+
+
+
